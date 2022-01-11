@@ -1,0 +1,41 @@
+Variables: 
+
+una variable es una forma de guardar el valor de un dato en un nombre que nosotros
+podemos recordar y usar despues sin ser necesario que recordemos el valor exácto de lo que queremos guardar.
+Por ejemplo: podemos usar la variable 
+var zapatos = 150
+para saber que los zapatos nos han costado 150. De esta forma si nosotros queremos despues sumar
+el precio de los zapatos al de una camisa que hemos comprado y costó 80 solo sumaremos 
+zapatos + 80
+sin necesidad de recordar el precio de los zapatos pues automaticamente nuestro programa guardó el valor
+atribuido a la variable zapatos.
+
+String:
+
+Una variable string o tipo cadena es un tipo de dato que generalmente se trata de letras, palabras, oraciones.
+Los string deben escribirse entre comillas "Hola mundo". 
+
+Funciones:
+las funciones son acciones que programamos para que el programa realice una acción que se repite
+en muchas ocasiones. De esta forma evitamos estar repitiendo codigo una y otra vez pues solo es necesario
+invocar o llamar a una funcion a traves de algunas "palabras clave" para que se realicen estas acciones.
+
+Declaraciones:
+Las declaraciones son acciones que pedimos que se realicen en caso de que ciertas condiciones
+ocurran. Por ejemplo podemos pedirle a nuestro programa que imprima cierto mensaje o ejecute cierto codigo
+si una condición ocurre. Para eso podemos usar una palabra clave que es if.
+var temperatura = 20
+if (temperatura <25){
+    console.log("Hay un buen clima")
+}
+En este ejemplo le pedimos al programa que ejecute el texto "hay un buen clima si el valor de temperatura
+es menor que 25.
+
+Boolean:
+Son valores que solo tienen la opcion de cierto o falso, true o false. Y nos ayudaras a ejecutar o saber 
+si los valores de cierto codigo son ciertas o falsos. En un ejemplo similar al anterior podemos escribir:
+if (temperatura < 26 ) {
+    console.log(true)
+}
+
+
