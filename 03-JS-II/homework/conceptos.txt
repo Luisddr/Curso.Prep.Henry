@@ -1,0 +1,31 @@
+CONCEPTOS:
+
+For: es una especie de concidición que consta de tres partes. La primera es una variable, la segunda es una condición y la tercera
+es una expresión en la que definimos que es lo que haremos con nuestra variable. De modo que podemos decir
+que en usando la palabra for asignaremos una variable y diremos que ciclo realizar con esa variable y mientras esa variable
+se mantenga verdadera o dentro de las condiciones que le pedimos se ejecutara nuestro programa. Por ejemplo:
+for (i = 0; i<100; i++){ // aqui le decimos al programa: el valor de i empieza en 0, 
+//mientras i sea menor que 100, suma una unidad al valor de i.
+    console.log(i) //mientras estas condiciones se cumplan imprime en la pantalla los numeros del 0 al 99.
+}
+
+and &&:
+el operador logico && se usa para hacer preguntas sobre valor booleanos (de cierto o falso)
+en mas de una condición. Por ejemplo para preguntar si 2 es mayor que uno y menor que 3 ejecuta el programa.
+se escribiría así:
+if (2 > 1 && 2 <3){
+    alert("Correcto")
+} // Aqui le estamos diciendo en código, 
+// si ambas expresiones son correctas imprime una alerta de correcto. 
+si alguna de las expresiones es incorrecta el mensaje no se imprimirá.
+
+or || : or representado por || funciona de una forma similar a and. Solo que or, se ejecutará
+si alguna de las dos opciones es true o verdadera. NO importa que una sea incorrecta el mensaje se ejecutará
+if (2 > 1 || 2 <0){ // a pesar de que 2 no es menor que cero, la alerta nos dirá el mensaje "Correcto"
+    alert("Correcto")
+
+Not !: el operador logico not invierte el resultado, es decir si la expresión es true not
+lo convertirá en false:
+
+num = 5*5
+5*5 === !num
