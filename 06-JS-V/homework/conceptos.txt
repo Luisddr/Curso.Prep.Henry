@@ -1,0 +1,38 @@
+CONCEPTOS
+
+Constructor:
+Cuando creamos una clase Class, es necesario introducir la palabra constructor con los atributos
+entre parentesis. Esto con el objetivo de añadir de las propiedades y los valores de los objetos que
+se crearan a partir de las clases. De esta forma constructor nos ayudará a "reciclar", las mismas categorías
+y solo introducir los nuevos valores.
+De una forma mas clara, cuando creamos una clase por ejemplo Persona:
+
+class Persona {
+    constructor(nombre, apellido, edad){
+        this.nombre = nombre
+        this.apellido = apellido
+        this.edad = edad
+    }
+}
+
+creando esta clase no será necesario crear un objeto nuevo para cada persona que queramos añadir.
+simplemente añadiremos la nueva variable y le asingnaremos los parametros que hemos construido con
+la palabra reservada constructor.
+
+const. luis = new Persona("Luis","de Dios","26") // y entre parentesis escribimos los parametros que anteriormente añadimos
+con constructor. 
+
+
+Prototype:
+Es una palabra reservada que nos ayuda a heredar o añadir un metodo o propiedad 
+no solo a uno sino a todos los objetos que creamos a partir de una clase. Usando el ejemplo de la clase
+anterior podemos usar Prototype para añadir una función saludar a nuestros objetos creador a partir
+de la clase Persona.
+
+Persona.prototype.saludar = function(){
+     console.log("Hola soy " this.nombre)
+}
+De esta forma añadimos esta funcion a todos los objetos de nuestra clase. Y podemos acceder a ella
+desde el objeto que queramos por ejemplo:
+
+luis.saludar();
